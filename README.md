@@ -25,7 +25,18 @@ to the require section of your `composer.json` file.
 Usage
 -----
 
-Once the extension is installed, simply use it in your code by  :
+Once the extension is installed, simply add to module configuration :
 
 ```php
-<?= \aditiya\simplefilemanager\AutoloadExample::widget(); ?>```
+    'modules' => [
+        ...
+        'sfm' => [
+            'class' => 'aditiya\simplefilemanager\SimpleFileManager',
+            'usedemo' => true,
+            // 'uploadfilepath' => '@app/uploads/files',
+            // 'metadatapath' => '@app/uploads/files/fileinfo',
+            // 'defaultUrl' => '/sfm/file/get',
+        ],
+        ...
+    ]
+```
