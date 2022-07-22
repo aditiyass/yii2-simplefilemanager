@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-4": {
-            "aditiya\\simplefilemanager\\": ""
+            "aditiya\\simplefilemanager\\": "src"
         }
     }
 }
