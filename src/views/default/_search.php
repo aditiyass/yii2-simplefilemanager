@@ -4,7 +4,6 @@ use yii\helpers\Html;
 use yii\widgets\ActiveForm;
 
 /* @var $this yii\web\View */
-/* @var $model app\modules\easy_file_manager\models\EasyfilemanagerSearch */
 /* @var $form yii\widgets\ActiveForm */
 ?>
 

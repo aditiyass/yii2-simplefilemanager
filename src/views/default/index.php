@@ -7,7 +7,7 @@ use yii\grid\ActionColumn;
 use yii\grid\GridView;
 use yii\widgets\Pjax;
 /* @var $this yii\web\View */
-/* @var $searchModel app\modules\easy_file_manager\models\EasyfilemanagerSearch */
+/* @var $searchModel app\modules\simple_file_manager\models\EasyfilemanagerSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = Yii::t('easy_file_manager', 'Easyfilemanagers');

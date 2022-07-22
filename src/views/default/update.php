@@ -3,7 +3,7 @@
 use yii\helpers\Html;
 
 /* @var $this yii\web\View */
-/* @var $model app\modules\easy_file_manager\models\Easyfilemanager */
+/* @var $model app\modules\simple_file_manager\models\Easyfilemanager */
 
 $this->title = Yii::t('easy_file_manager', 'Update Easyfilemanager: {name}', [
     'name' => $model->name,

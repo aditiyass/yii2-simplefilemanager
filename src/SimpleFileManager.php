@@ -1,6 +1,6 @@
 <?php
 
-namespace aditiya\simplefilemanager\simple_file_manager;
+namespace aditiya\simplefilemanager;
 
 /**
  * simple_file_manager module definition class
@@ -10,7 +10,7 @@ class SimpleFileManager extends \yii\base\Module
     /**
      * {@inheritdoc}
      */
-    public $controllerNamespace = 'aditiya\simplefilemanager\simple_file_manager\controllers';
+    public $controllerNamespace = 'aditiya\simplefilemanager\controllers';
     public $uploadfilepath = '@app/uploads/sfm';
     public $metadatapath = '@app/uploads/sfm/fileinfo';
     public $usedemo = false;
