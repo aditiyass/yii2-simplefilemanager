@@ -1,0 +1,22 @@
+{
+    "name": "aditiya/yii2-simplefilemanager",
+    "description": "Simple file manager to manage file data without db and little config. using uuid as key to acccessing the file.",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension","file","manager","aditiya","php"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Aditiya Sidabutar",
+            "email": "sidabutaraditiya@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "~2.0.0",
+        "thamtech/yii2-uuid": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "aditiya\\simplefilemanager\\": ""
+        }
+    }
+}
